@@ -9,7 +9,7 @@ import AboutUs from "./sections/AboutUs";
 import Franchise from "./sections/Franchise";
 import FranchiseDetail from "./sections/FranchiseDetail";
 import Starup from "./sections/Startup";
-import StartupDetail from "./sections/startupDetail";
+import StartupDetail from "./sections/StartupDetail";
 import Summit from "./sections/Summit";
 import SummitDetail from "./sections/SummitDetail";
 
