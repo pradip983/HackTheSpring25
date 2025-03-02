@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = import.meta.env.VITE_API_URL;  // Make sure this matches your backend
+const API_URL = "http://localhost:5000/api/users";  // Make sure this matches your backend
 
 export const registerUserCustomer = async (userData) => {
     try {
