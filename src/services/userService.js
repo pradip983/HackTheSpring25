@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "https://hack-the-spring25-sq65.vercel.app/api/users";  // Make sure this matches your backend
+const API_URL = "https://expanding-express.vercel.app/api/users";  // Make sure this matches your backend
 
 export const registerUserCustomer = async (userData) => {
     try {
