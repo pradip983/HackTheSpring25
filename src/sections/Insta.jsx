@@ -23,7 +23,7 @@ const Insta = () => {
     <div className='w-full lg:px-20 px-5 py-[80px] bg-white flex flex-col justify-center items-center gap-4'>
       <h1 data-aos="zoom-in" data-aos-delay="100" className='text-Blue text-xl font-semibold capitalize'>Our Instagram Shop</h1>
       <h1 data-aos="zoom-in" data-aos-delay="200" className='text-black font-semibold text-5xl leading-[50px] text-center capitalize'>Follow On Instagram</h1>
-      <div data-aos="zoom-in" data-aos-delay="300" className='w-full grid lg:grid-cols-6 grid-cols-1 justify-center items-center gap-6 mt-8'>
+      <div data-aos="zoom-in" data-aos-delay="300" className='w-full grid lg:grid-cols-6 grid-cols-2 justify-center items-center gap-6 mt-8'>
         <img src={insta1} alt="" className='rounded-lg border-4 border-black-500'/>
         <img src={insta2} alt="" className='rounded-lg border-4 border-black-500'/> 
         <img src={insta3} alt="" className='rounded-lg border-4 border-black-500'/>
