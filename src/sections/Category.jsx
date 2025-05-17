@@ -25,17 +25,17 @@ const Category = () => {
       </div>
       <div className='lg:w-[85%] w-full grid lg:grid-cols-3 grid-cols-1 justify-center items-start gap-20'>
         <Link to="/summit"> <div data-aos="zoom-in" data-aos-delay="200" className='flex flex-col justify-center items-center gap-6'>
-          <img src="\Category2.png" alt="" className='rounded-full cursor-pointer' />
+          <img src="\Category2.png" alt="" className='rounded-full h-[35vh] lg:h-full cursor-pointer' />
           <h1 className='text-black text-3xl font-semibold hover:text-Blue cursor-pointer'>Summit</h1>
         </div>
         </Link>
         <Link to="/franchise"> <div data-aos="zoom-in" data-aos-delay="300" className='flex flex-col justify-center items-center gap-6'>
-          <img src={Category3} alt="" className='rounded-full cursor-pointer' />
+          <img src={Category3} alt="" className='rounded-full h-[35vh] lg:h-full cursor-pointer' />
           <h1 className='text-black text-3xl font-semibold hover:text-Blue cursor-pointer'>Franchise</h1>
         </div>
         </Link>
         <Link to="/startup"> <div data-aos="zoom-in" data-aos-delay="400" className='flex flex-col justify-center items-center gap-6'>
-          <img src={Category4} alt="" className='rounded-full cursor-pointer' />
+          <img src={Category4} alt="" className='rounded-full h-[35vh] lg:h-full cursor-pointer' />
           <h1 className='text-black text-3xl font-semibold hover:text-Blue cursor-pointer'>StartUp</h1>
         </div>
         </Link>
