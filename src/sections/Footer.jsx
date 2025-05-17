@@ -44,17 +44,19 @@ const Footer = () => {
           </div>
         </div>
         <div data-aos="zoom-in" data-aos-delay="200">
-          <h1 className='text-Black text-xl font-semibold capitalize'>Useful Links</h1>
-          <ul className='mt-8 flex flex-col justify-center items-center gap-2'>
-            <li className='text-Black cursor-pointer hover:text-Blue'>Home</li>
-            <li className='text-Black cursor-pointer hover:text-Blue'>Business</li>
-            <li className='text-Black cursor-pointer hover:text-Blue'>Franchise</li>
-            <li className='text-Black cursor-pointer hover:text-Blue'>Startup</li>
-            <li className='text-Black cursor-pointer hover:text-Blue'>About Us</li>
-            <li id='contact' className='text-Black cursor-pointer hover:text-Blue'>
-              <Link to="banner" spy={true} offset={-100} smooth={true}>Contact Us</Link>
-            </li>
-          </ul>
+          <div className='lg:block hidden'>
+            <h1 className='text-Black text-xl text-center font-semibold capitalize'>Useful Links</h1>
+            <ul className='mt-8 flex flex-col justify-center font-bold items-center gap-2'>
+              <li className='text-Black cursor-pointer hover:text-Blue'>Home</li>
+              <li className='text-Black cursor-pointer hover:text-Blue'>Business</li>
+              <li className='text-Black cursor-pointer hover:text-Blue'>Franchise</li>
+              <li className='text-Black cursor-pointer hover:text-Blue'>Startup</li>
+              <li className='text-Black cursor-pointer hover:text-Blue'>About Us</li>
+              <li id='contact' className='text-Black cursor-pointer hover:text-Blue'>
+                <Link to="banner" spy={true} offset={-100} smooth={true}>Contact Us</Link>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
       <div id='icon-box' className='bg-Blue text-white p-3 rounded-full hover:text-black cursor-pointer fixed lg:bottom-6 right-6' onClick={handleScroll}>
